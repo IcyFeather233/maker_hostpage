@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="我们是一群创客，自主创新，动手实践。软件编程、硬件电路都玩得转！">
+
+    <meta name="google-site-verification" content="Lwh0NyQ1YAKRuLlXXkk0_QvgJpGLRQVA8xaoRn81Ysk">
+
+<link rel="shortcut icon" href="/assets/img/favicon.png">
+<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="四川大学 SCU Maker 协会" />
+
+
+
+<!-- Open Graph metadata -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="活动公告 | 四川大学 SCU Maker 协会" />
+<meta property="og:description" content="我们是一群创客，自主创新，动手实践。软件编程、硬件电路都玩得转！" />
+<meta property="og:image" content="http://localhost:4000/assets/img/logo-share.png" /> <!-- WeChat requires that thumbnail image is larger than 300x300 -->
+<meta property="og:url" content="http://localhost:4000/events/" />
+
+<title>活动公告 | 四川大学 SCU Maker 协会</title>
+
+<!-- Bootstrap core CSS -->
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="/assets/css/font-awesome-v4-shims.min.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+</head>
+
+
+    <body>
+        <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><!--
+   --><picture>
+  <source srcset="/assets/img/logo-small-dark.png 1x" media="(prefers-color-scheme: dark)" />
+  
+  <img src="/assets/img/logo-small.png" srcset="/assets/img/logo-small.png 1x" />
+  </picture>
+ 四川大学 SCU Maker 协会</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/">HOME</a></li>
+        <li class="active"><a href="/events/">EVENTS</a></li>
+        <li ><a href="/blog/">BLOG</a></li>
+        <li><a href="https://bbs.scumaker.org/">BBS</a></li>
+        <li><a href="https://git.scumaker.org/">GIT</a></li>
+        <li><a href="http://share.syaoran.scumaker.org/">RES</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+
+            <div class="container mtb">
+  <div class="row">
+
+    <!-- BLOG POSTS LIST -->
+    <div class="col-lg-10 col-lg-offset-1" id="events-list">
+
+      
+
+    </div><!--/col-lg-8 -->
+
+  </div><!--/row -->
+</div><!--/container -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+
+  var today = function() {
+    var pad = function (number) {
+      var r = String(number);
+      if ( r.length === 1 ) {
+        r = '0' + r;
+      }
+      return r;
+    }
+
+    var _today = new Date();
+    return Date.parse(
+      _today.getFullYear().toString() + "-"
+      + pad(_today.getMonth()+1) + "-"
+      + pad(_today.getDate())
+    );
+
+  }();
+
+  $('#events-list .event').each(function() {
+    console.log($(this).attr("data-event-date"));
+    var event_date = Date.parse($(this).attr("data-event-date"));
+    if (today < event_date) {
+      var label = "<span class='label label-warning'>Upcoming</span>";
+      $(this).find(".event-tags").prepend(label);
+    }
+  });
+});
+</script>
+
+
+        <div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <p>我们是一群创客，自主创新，动手实践。软件编程、硬件电路都玩得转！</p>
+            </div>
+            <div class="col-sm-4">
+              <picture>
+  <img src="/assets/img/logo-white.png" srcset="/assets/img/logo-white.png 1x" />
+  </picture>
+
+              <p style="color: #384452"> The best team on the planet. </p>
+            </div>
+        </div><!--/row -->
+    </div><!--/container -->
+</div><!--/footerwrap -->
+
+    </body>
+</html>

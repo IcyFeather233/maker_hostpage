@@ -1,0 +1,28 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "四川大学 SCU Maker 协会"
+brand: "四川大学 SCU Maker 协会"
+description: "四川大学开源硬件协会"
+baseurl: "" #important: start with /
+url: "https://test.icyfeather.cf"
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+    input: GFM
+    hard_wrap: false
+permalink: "/:categories/:year/:title/"
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+sass:
+    sass_dir: assets/css
+future: true
+google_verify: Lwh0NyQ1YAKRuLlXXkk0_QvgJpGLRQVA8xaoRn81Ysk
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "我们是一群创客，自主创新，动手实践。软件编程、硬件电路都玩得转！"
+
+include: ['_pages']
+

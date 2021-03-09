@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>四川大学 SCU Maker 协会</title>
+    <description>四川大学开源硬件协会</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 09 Mar 2021 20:08:01 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Mar 2021 20:08:01 +0800</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>blog: Git 入门培训公告</title>
+        <description>&lt;p&gt;辛苦写了一晚上的代码被猫踩了怎么办？&lt;/p&gt;
+
+&lt;p&gt;与别人合并代码却冒出一大堆冲突怎么办？&lt;/p&gt;
+
+&lt;p&gt;️黑漆漆的命令行不会使用怎么办？&lt;/p&gt;
+
+&lt;p&gt;github和git到底是什么关系？&lt;/p&gt;
+
+&lt;p&gt;在这里，SCUMAKER六次主题讲座教你git从入门到精通！&lt;/p&gt;
+
+&lt;p&gt;在这里，你讲学到：&lt;/p&gt;
+
+&lt;p&gt;统一使用git像大厂员工一样管理进度&lt;/p&gt;
+
+&lt;p&gt;协作开发同一项目多人并行跟踪&lt;/p&gt;
+
+&lt;p&gt;随时存档标记，避免误回滚&lt;/p&gt;
+
+&lt;p&gt;快来报名！名额有限！&lt;/p&gt;
+
+&lt;p&gt;讲座主要面向cli，不涉及图形界面，需要自备电脑。&lt;/p&gt;
+
+&lt;p&gt;讲座开展日期初步定于开学第三周起的每周末，持续时间六到七周。&lt;/p&gt;
+
+&lt;p&gt;更多信息请关注SCU Maker群公告！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.wjx.top/vj/Y8u4syp.aspx&quot;&gt;问卷星报名链接&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;学术界开源倡议&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/blog/2021/git/poster.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 07 Mar 2021 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2021/iscas-conf/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/iscas-conf/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>git</category>
+        
+        <category>open source</category>
+        
+      </item>
+    
+  </channel>
+</rss>
